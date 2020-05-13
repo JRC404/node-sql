@@ -1,0 +1,31 @@
+{
+  "name": "node-sql-application",
+  "version": "1.0.0",
+  "description": "Application for playing about with SQL and JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRC404/node-sql.git"
+  },
+  "keywords": [
+    "node",
+    "sql",
+    "js",
+    "vanilla"
+  ],
+  "author": "Jacob Reilly-Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JRC404/node-sql/issues"
+  },
+  "homepage": "https://github.com/JRC404/node-sql#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
