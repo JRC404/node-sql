@@ -1,5 +1,7 @@
 const mysql = require('mysql');
 
+let location = "Manchester";
+
 var connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
@@ -22,7 +24,7 @@ connection.connect(function (err) {
 
 connection.query(
   'UPDATE instructors SET city = ? WHERE ID = ?',
-  ['Chester', 1],
+  [`${location}`, 1],
   (err, result) => {
     if (err) throw err;
     console.log(`Changed ${result.changedRows} row(s)`);
